@@ -1,0 +1,40 @@
+.groups {
+  display:flex;
+  justify-content: center;
+  padding-top:295px;
+  height:100vh;
+  background-color: #fff;
+  z-index: 0;
+}
+
+#groupLoadError {
+  width: 250px;
+  height: 50px;
+}
+
+.mainDiv {
+  margin-left: 18vw;
+  margin-top: 75px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .mainDiv {
+    margin-left: 2vw;
+  }
+}
+
+#titleBar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#arrow {
+  margin-top: 5px;
+}
+
+#groupSpinner {
+  width: 4rem;
+  height: 4rem;
+}

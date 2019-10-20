@@ -1,0 +1,115 @@
+.blankdiv {
+  display: block;
+  position: fixed;
+  background-color: rgba(0,0,0,.4);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 3;
+}
+
+#createJoinWindow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#createGroupClose {
+  margin-top: -90px;
+  margin-left: 170px;
+}
+
+.crossIconBg:hover {
+  color: #d9534f;
+}
+
+.searchResults {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vw;
+}
+
+.upper-layer-groups {
+  position: fixed;
+  top: 25vh;
+  z-index: 4;
+  background-color: #eee;
+  padding: 50px;
+}
+
+.upper-layer-groups > div {
+  margin-top: 20px;
+}
+
+.upper-layer-groups > div > label{
+  margin-right: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#vibe-logo1 {
+  display: block;
+  width: 80px;
+  margin: 30px auto;
+  /* box-shadow: 0 5px 10px -7px #333333; */
+}
+
+#groupName {
+  border-radius: 100px;
+  padding-top: 0px;
+  width: 100%;
+  border: 1px solid #D9D9D9;
+  outline: none;
+  display: block;
+  margin: 20px auto 20px auto;
+  text-align: center;
+}
+
+#groupName:focus {
+  box-shadow: none;
+  border-color:#007bff;
+  border-width:2px;
+}
+
+#tagsInput {
+  border-radius: 100px;
+  padding: 10px 15px;
+  width: 100%;
+  border: 1px solid #D9D9D9;
+  outline: none;
+  display: block;
+  margin: 20px auto 20px auto;
+  text-align: center;
+}
+
+#tagsInput:focus {
+  box-shadow: none;
+  border-color:#007bff;
+  border-width:2px;
+}
+
+#createGroupButton {
+  display: block;
+  margin: 55px auto 10px auto;
+}
+
+#createGroupButton:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#createGroupButton:hover {
+  animation: buttonanime 1s 2;
+}
+
+@keyframes buttonanime1 {
+  0% {transform: translateY(0px);}
+  25% {transform: translateY(2px);}
+  75% {transform: translateY(-2px);}
+  0% {transform: translateY(0px);}
+}

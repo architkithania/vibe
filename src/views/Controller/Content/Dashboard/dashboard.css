@@ -1,0 +1,112 @@
+.eventCard {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 3vh;
+  display:flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 15vw;
+  height:15vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  border-radius: 20px;
+  background-color: #f7ab0a;
+  color: #fff;
+  box-shadow: 7px 7px 20px #bbb;
+}
+
+.eventCarasol3 {
+  /* display: inline-flex */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-left:2vw;
+  margin-top:10vh;
+  margin-bottom: 2vh;
+  justify-content: flex-start;
+  overflow-x: auto;
+  margin-bottom: 10px;
+}
+
+/* .eventCarasol > div{
+  flex-wrap: nowrap !important;
+} */
+
+#calendar {
+  margin-top:5vh;
+  width: 100%;
+}
+
+#calendarCard {
+  border-radius: 20px;
+  background-color: #eee;
+  height: 100vh;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+#eventSpinner {
+  width: 4rem;
+  height: 4rem;
+}
+
+#errorIcon {
+  margin-bottom:3px;
+}
+
+#calendar-h2 {
+  font-family: futura;
+}
+
+@media screen and (max-width: 1200px) {
+  .eventCarasol {
+    display: flex;
+    justify-content: center;
+  }
+  .eventCard {
+    margin-left: 1vw;
+    width: 18vw;
+  }
+  #calendar {
+    margin-top:5vh;
+    width: 95%; 
+    margin-left: 2.5%;
+  }
+}
+  
+#calendarSpinner {
+  width: 4rem;
+  height: 4rem;
+}
+
+.calendarAlert{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top:30vh;
+}
+
+#alertMessage{
+  width: 30%; 
+  align-items: center;
+}
+
+#calendarOuterCol {
+  height: 100vh;
+}
+
+#eventsContainer {
+  margin-top:10px;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: unset; */
+  /* justify-content: flex-start; */
+}
+
+

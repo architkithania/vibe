@@ -1,0 +1,157 @@
+#settings {
+    margin-top: 12vh;
+    display: flex;
+    text-align: center;
+}
+
+.headings {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    /* color: #F7AB0A; */
+}
+
+#perInf {
+    border: none;
+    border-bottom: 5px solid #F7AB0A;
+    border-radius: 5px;
+    color: #F7AB0A;
+}
+
+#accInf {
+border: none;
+}
+
+#picbox {
+    display: flex;
+    justify-content: center;
+}
+
+#picInput{
+    display: flex;
+    margin-top: 10vh;
+    background-color: #eee;
+    justify-content: center;
+    padding-top: 110px;
+    padding-left: 30px;
+    width:250px;
+    height:250px;
+    border-radius: 150px;
+    z-index: 1;
+    opacity: 1;
+    box-shadow: 0px 0px 3px 0px #666 inset;
+}
+
+#password {
+    border: 0;
+    background-color: #f5f5f5;
+}
+
+#password:hover {
+    color: #f78200;
+}
+
+#password:focus {
+   outline: 0;
+}
+
+#groupSpinner {
+    width: 4rem;
+    height: 4rem;
+  }
+
+#picInput:focus {
+    outline: 0;
+}
+
+#picInput:hover {
+    opacity: 0.2;
+}
+
+#pic {
+    display: none;
+    margin-top: 10vh;
+    background-color: #eee;
+    justify-items: center;
+    width:250px;
+    height:250px;
+    margin-left: -250px;
+    border-radius: 50%;
+    z-index: 0;
+    box-shadow: 0px 0px 3px 0px #666 inset;
+}
+
+.headings:focus {
+    outline: 0;
+}
+
+.data {
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 1px 0px #666 inset;
+    margin-bottom: 5vh;
+}
+
+.leftdata {
+    margin-top: 3vh;
+    padding-left: 1vw;
+    width: 30%;
+    /* border-right: 2px solid black; */
+}
+
+.rightdata {
+    display: flex;
+    margin-top: 3vh;
+    padding-left: 1vw;
+    font-size: 24px;
+}
+
+.datarow {
+    display: flex;
+    border-bottom: 2px solid #D3D3D3;
+    border-radius: 10px;
+}
+
+.interests {
+    margin-left: 2vw;
+}
+
+#firstinterest {
+    margin-left: 0vw;
+}
+
+#perInfContent {
+    display: block;
+}
+
+#accInfContent {
+    display:none;
+}
+
+#authorizebutton {
+  display: block;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f78200;
+  color: #fffafa;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+}
+
+#authorizebutton:hover {
+  display: block;
+  margin: 55px auto 10px auto;
+  padding: 10px;
+  background-color: #ff9317;
+  transition: 1s;
+  color: #fffafa;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+}

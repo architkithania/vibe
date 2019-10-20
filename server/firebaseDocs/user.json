@@ -1,0 +1,42 @@
+// Name of File: userId
+{
+  "id": "<userId>",
+  "firstName": "Jack",
+  "lastName": "Daniel",
+  "email": "jack.daniel@gmail.com",
+  "profilePicture": "<link to profile picutre>",
+  "isCalLinked": true,
+  "calTokenId": "<Firestore Identifcation ID>",
+  "friends": {
+    "number": 3,
+    "list": [
+      {
+        "id": "<userId>",
+        "name": "Bob Dylan"
+      },
+      {
+        "id": "<userId>",
+        "name": "George RR Martin"
+      },
+      {
+        "id": "<userId>",
+        "name": "Harry Potter"
+      }
+    ]
+  },
+  "groups": {
+    "number": 2,
+    "list": [
+      {
+        "id": "<groupId>",
+        "name": "<groupName>",
+        "hasActiveEvents": true
+      },
+      {
+        "id": "<groupId>",
+        "name": "<groupName>",
+        "hasActiveEvents": true
+      }
+    ]
+  }
+}

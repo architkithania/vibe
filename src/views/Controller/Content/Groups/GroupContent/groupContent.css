@@ -1,0 +1,72 @@
+#groupContent {
+  margin-left:-250px !important; 
+  height: 100vh;
+}
+
+#groupContainer {
+  display:flex;
+  justify-content: center;
+}
+
+#eventsContainter {
+  margin-top:10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: unset;
+  justify-content: flex-start;
+  overflow-x:auto;
+  margin-bottom: 10px;
+}
+
+#eventsContainter::-webkit-scrollbar {
+  widows: 3px;
+}
+
+#loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#backIcon {
+  margin-left: 10px;
+}
+
+#eventsTitle {
+  margin-top:20px;
+}
+
+
+
+#eventSpinner {
+  width:4rem;
+  height:4rem;
+}
+
+#upperLayerGroups {
+  height: 650px;
+  width: 500px;
+  margin-left: 200px;
+  margin-top: -10vh;
+  margin-bottom: 200vh;
+  position: fixed;
+  overflow-y:scroll;
+}
+
+#closeButton {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  margin-top: -50px;
+  margin-left: -30px;
+}
+
+#closeButton:hover {
+  background-color: #d9534f;
+}
+
+#closeButtondiv {
+  display: flex;
+  align-items: left;
+  border-radius: 100px;
+}

@@ -1,0 +1,232 @@
+#toolbar {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  border: 1px solid;
+  position: fixed;
+  width: 100vw;
+  height: 8vh;
+  z-index: 2;
+  background-color: #f78200;
+  padding-left: 0px;
+}
+
+.navbar-icons:hover :not(#search-bar) {
+  color: #007bff;
+  cursor: pointer;
+  animation: buttonanime 1s 2;
+}
+
+#vibe-logo {
+  height: 6vh;
+  width: 7vh;
+  margin-left: 5vw;
+}
+
+#notification-icon {
+  color: black;
+}
+
+#nav-4 {
+  margin-left: 15vw;
+}
+
+#settings-icon {
+  float: left;
+  color: black;
+  margin-left: 2vw;
+}
+
+#search-icon {
+  margin-left: -2vw;
+  z-index: 1;
+}
+
+#search-bar:focus {
+  box-shadow: none;
+  border-color: #007bff;
+  border-width: 2px solid;
+}
+
+@keyframes buttonanime {
+  0% {transform: translateY(0px);}
+  25% {transform: translateY(2px);}
+  75% {transform: translateY(-2px);}
+  0% {transform: translateY(0px);}
+}
+
+#search-bar {
+  border-radius: 100px;
+  margin-left: 25vw;
+  padding-right: 2vw;
+  width: 40vw;
+  height: 5vh;
+  border: 2px solid #d9d9d9;
+  outline: none;
+  z-index: 0;
+}
+
+@media screen and (max-width: 1500px) {
+  #vibe-logo {
+    height: 6vh;
+    width: 7vh;
+    margin-left: 4vw;
+  }
+  #nav-4 {
+    margin-left: 15vw;
+  }
+
+  #settings-icon {
+    float: left;
+    color: black;
+    margin-left: 2vw;
+  }
+
+  #search-icon {
+    margin-left: -2.5vw;
+    z-index: 1;
+  }
+
+  #search-bar {
+    border-radius: 100px;
+    margin-left: 24vw;
+    padding-right: 2vw;
+    width: 40vw;
+    height: 5vh;
+    border: 2px solid #d9d9d9;
+    outline: none;
+    z-index: 0;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #vibe-logo {
+    height: 6vh;
+    width: 7vh;
+    margin-left: 4vw;
+  }
+  #nav-4 {
+    margin-left: 15vw;
+  }
+
+  #settings-icon {
+    float: left;
+    color: black;
+    margin-left: 2vw;
+  }
+
+  #search-icon {
+    margin-left: -2.5vw;
+    z-index: 1;
+  }
+
+  #search-bar {
+    border-radius: 100px;
+    margin-left: 22vw;
+    padding-right: 2vw;
+    width: 40vw;
+    height: 5vh;
+    border: 2px solid #d9d9d9;
+    outline: none;
+    z-index: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #vibe-logo {
+    height: 6vh;
+    width: 7vh;
+    margin-left: 4vw;
+  }
+  #nav-4 {
+    margin-left: 13vw;
+  }
+
+  #settings-icon {
+    float: left;
+    color: black;
+    margin-left: 2vw;
+  }
+
+  #search-icon {
+    margin-left: -3vw;
+    z-index: 1;
+  }
+
+  #search-bar {
+    border-radius: 100px;
+    margin-left: 22vw;
+    padding-right: 2vw;
+    width: 40vw;
+    height: 5vh;
+    border: 2px solid #d9d9d9;
+    outline: none;
+    z-index: 0;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #vibe-logo {
+    height: 5vh;
+    width: 6vh;
+    margin-left: 4vw;
+  }
+  #nav-4 {
+    margin-left: 13vw;
+  }
+
+  #settings-icon {
+    float: left;
+    color: black;
+    margin-left: 2vw;
+  }
+
+  #search-icon {
+    margin-left: -3.5vw;
+    z-index: 1;
+  }
+
+  #search-bar {
+    border-radius: 100px;
+    margin-left: 20vw;
+    padding-right: 2vw;
+    width: 40vw;
+    height: 5vh;
+    border: 2px solid #d9d9d9;
+    outline: none;
+    z-index: 0;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #vibe-logo {
+    height: 5vh;
+    width: 6vh;
+    margin-left: 5vw;
+  }
+  #nav-4 {
+    margin-left: 13vw;
+  }
+
+  #settings-icon {
+    float: left;
+    color: black;
+    margin-left: 2vw;
+  }
+
+  #search-icon {
+    margin-left: -4vw;
+    z-index: 1;
+  }
+
+  #search-bar {
+    border-radius: 100px;
+    margin-left: 18vw;
+    padding-right: 2vw;
+    width: 38vw;
+    height: 5vh;
+    border: 2px solid #d9d9d9;
+    outline: none;
+    z-index: 0;
+  }
+}

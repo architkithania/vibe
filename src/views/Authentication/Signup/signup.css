@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+#vibe-logo2 {
+  display: block;
+  width: 80px;
+  margin: 30px auto;
+}
+
+.form {
+  background-color: #ffffff;
+  width: 500px;
+  margin: 50px auto 10px auto;
+  padding: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px -3px #333;
+  text-align: center;
+}
+
+#userNameInput {
+  border-radius: 100px;
+  padding: 10px 15px;
+  width: 50%;
+  border: 1px solid #D9D9D9;
+  outline: none;
+  display: block;
+  margin: 20px auto 20px auto;
+}
+
+#passwordInput {
+  border-radius: 100px;
+  padding: 10px 15px;
+  width: 50%;
+  border: 1px solid #D9D9D9;
+  outline: none;
+  display: block;
+  margin: 20px auto 20px auto;
+}
+
+#firstNameInput {
+  border-radius: 100px;
+  padding: 10px 15px;
+  width: 50%;
+  border: 1px solid #D9D9D9;
+  outline: none;
+  display: block;
+  margin: 20px auto 20px auto;
+}
+
+#lastNameInput {
+  border-radius: 100px;
+  padding: 10px 15px;
+  width: 50%;
+  border: 1px solid #D9D9D9;
+  outline: none;
+  display: block;
+  margin: 20px auto 20px auto;
+}
+
+#emailInput {
+  border-radius: 100px;
+  padding: 10px 15px;
+  width: 50%;
+  border: 1px solid #D9D9D9;
+  outline: none;
+  display: block;
+  margin: 20px auto 20px auto;
+}
+
+#userNameInput:focus {
+  box-shadow: none;
+  border-color:#007bff;
+  border-width:2px;
+}
+#passwordInput:focus {
+  box-shadow: none;
+  border-color:#007bff;
+  border-width:2px;
+}
+#firstNameInput:focus {
+  box-shadow: none;
+  border-color:#007bff;
+  border-width:2px;
+}
+#lastNameInput:focus {
+  box-shadow: none;
+  border-color:#007bff;
+  border-width:2px;
+}
+#emailInput:focus {
+  box-shadow: none;
+  border-color:#007bff;
+  border-width:2px;
+}
+
+#login-button:hover {
+  animation: buttonanime 1s 2;
+}
+
+@keyframes buttonanime {
+  0% {transform: translateY(0px);}
+  25% {transform: translateY(2px);}
+  75% {transform: translateY(-2px);}
+  0% {transform: translateY(0px);}
+}
+
+#login-button {
+  display: block;
+  margin: 55px auto 10px auto;
+}
+
+#create-account {
+  background: none !important;
+  border: none;
+  text-align: center;
+  margin-top: 30px;
+  color: #719BE6;
+  text-decoration: none;
+  padding: 5px;
+  display: inline-block;
+}
+
+#create-account:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,96 @@
+.innerhighspan2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headerIcon2 {
+  border-color: #d3d3d3;
+}
+
+.iconbg2 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height:35px;
+  width: 35px;
+}
+
+.iconbg2:hover {
+  background-color: #d3d3d3;
+  cursor:pointer;
+}
+
+.sEventCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #666;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px 1px #666 inset;
+  border-radius: 15px;
+}
+
+.sEventCardBody {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.selectedEventHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.eventSidebar {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  width:200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.spinnerContainer {
+  justify-content: center !important;
+}
+
+.eventMainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: -35px;
+}
+
+.metaContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.metaGroup {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+
+#countDown {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-top: -10px;
+  margin-bottom: 50px;
+  border: 1px solid #d3d3d3;
+  padding: 5px 10px 5px 10px;
+}
+
+.topThreeEventTimes {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

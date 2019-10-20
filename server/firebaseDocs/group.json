@@ -1,0 +1,57 @@
+// Name of File: groupid
+{
+  "id": "<groupId>",
+  "name": "<Group Name>",
+  "creator": {
+    "id": "<userId>",
+    "name": "<userFullNane>"
+  },
+  "tags": [
+    "drinking",
+    "party",
+    "LKF"
+  ],
+  "members": {
+    "number": 4,
+    "list": [
+      {
+        "id": "<userId>",
+        "name": "<userFullName>",
+        "isAdmin": true
+      },
+      {
+        "id": "<userId>",
+        "name": "<userFullName>",
+        "isAdmin": true
+      },
+      {
+        "id": "<userId>",
+        "name": "<userFullName>",
+        "isAdmin": false
+      },
+      {
+        "id": "<userId>",
+        "name": "<userFullName>",
+        "isAdmin": false
+      }
+    ]
+  },
+  "hasActiveEvents": true,
+  "events": {
+    "number": 3,
+    "list": [
+      {
+        "id": "<eventId>",
+        "name": "<eventName>"
+      },
+      {
+        "id": "<eventId>",
+        "name": "<eventName>"
+      },
+      {
+        "id": "<eventId>",
+        "name": "<eventName>"
+      }
+    ]
+  }
+}

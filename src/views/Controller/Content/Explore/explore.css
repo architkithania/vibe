@@ -1,0 +1,10 @@
+.explore {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  padding-top:100px;
+  height: 100vh;
+  background-color: #ffffff;
+  z-index: 0;
+}

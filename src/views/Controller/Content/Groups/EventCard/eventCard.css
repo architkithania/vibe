@@ -1,0 +1,90 @@
+.groupEventCard {  
+  width:220px;
+  height:190px;
+  text-align: center;
+  border: 1px solid #666;
+  background-color: #FFF;
+  box-shadow: 0px 1px 3px 1px #666 inset;
+  border-radius: 15px;
+}
+
+.eventJoinButton {
+  margin-left: 10px;
+  margin-top: 20px;
+  height: 50px;
+}
+
+#divWrapperCard {
+  background-color: #eee;
+}
+
+.eventCardTitle {
+  font-weight: 700;
+}
+
+.cardInfoBarContainer {
+  margin-top:50px;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.grpEvtBdg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left:-10px;
+  top:-10px;
+  background-color: #d9534f !important;
+  width: 15px !important;
+  height: 15px !important;
+  font-size: 10px;
+  color: #FFF;
+  font-weight: 900;
+}
+
+.cardEventIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.cardEventIcons > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.innerhighspan2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right:-30px; 
+  margin-top: -23px;
+}
+
+.headerIcon2 {
+  border-color: #d3d3d3;
+}
+
+.iconbg2 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height:35px;
+  width: 35px;
+  margin-right:40px;
+}
+
+.iconbg2:hover {
+  background-color: #d3d3d3;
+  cursor:pointer;
+}
+
+.arrowInCard {
+  display: flex;
+  justify-content: center;
+}

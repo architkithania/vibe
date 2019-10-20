@@ -1,0 +1,12 @@
+#content {
+    margin-left: -65vw;
+    background-color: #fff;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1200px) {
+    #content {
+        margin-left: -100vw;
+        transition: 0.1s;
+    }
+}

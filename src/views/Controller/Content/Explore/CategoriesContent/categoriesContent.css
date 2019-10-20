@@ -1,0 +1,56 @@
+.categoriesContent {
+  padding-top: 30px;
+  margin-top:75px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.categoriesLoaderError {
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.categoriesSpinner {
+  height: 4rem !important;
+  width: 4rem !important;
+}
+
+.resultButtonArea {
+  height:39px;
+  width: 57px;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.addedCheck {
+  color: #5cb85c !important;
+}
+
+.resultCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 75vw;
+  height: 30vh;
+  margin-bottom:30px;
+  padding-left:10px;
+  padding-right:10px;
+  background-color: #fff;
+  border: 1px solid #666;
+  box-shadow: 0px 1px 3px 1px #888  
+}
+
+#loadMoreSpinner {
+  width: 2rem !important;
+  height: 2rem !important;
+}

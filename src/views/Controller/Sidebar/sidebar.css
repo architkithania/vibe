@@ -1,0 +1,97 @@
+#sidebar {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  margin-top: 8vh;
+  background-color: #fff;
+  height: 100vh;
+  width: 15vw;
+  padding-left: 5px;
+  padding-top: 2vh;
+  z-index: 2;
+}
+
+#hamburgerMenu {
+  text-align: center;
+  display: none;
+}
+
+#burgerIcon {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  position: fixed;
+  cursor: pointer;
+  display: none;
+  transition: all 0.2s ease-in-out;
+  z-index: 1000;
+}
+
+#compassIcon {
+  font-size: 1.33rem;
+}
+
+#burgerIcon:hover {
+  transform: scale(1.5);
+}
+
+.setName:hover {
+  background-color: #d9d9d9;
+  color: rgb(255, 140, 9);
+  transition: 0.3s;
+}
+
+.setName:hover .pageName {
+  color: rgb(255, 140, 9);
+  transition: 0.3s;
+}
+
+.setName {
+  width: 100%;
+}
+
+#icons {
+  margin-top: 15px;
+  
+}
+
+.pageName {
+  background: none;
+  width: 100%;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+  margin-right: 0;
+  display: inline-block;
+}
+
+.pageName:focus {
+  outline: 0;
+}
+
+#logo1 {
+  z-index: 2;
+  display: flex;
+}
+
+.selected {
+  background-color: #eee;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 1200px) {
+  #sidebar {
+    display: none;
+    padding-left: 5px;
+    padding-top: 2vh;
+  }
+
+  #burgerIcon {
+    cursor: pointer;
+    display: flex;
+    transition: all 0.2s ease-in-out;
+    z-index: 3;
+  }
+}

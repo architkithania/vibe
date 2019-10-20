@@ -1,0 +1,29 @@
+#groupHeaderToolbar {
+  margin-top: -215px;
+  margin-bottom:100px;
+}
+
+.innerhighspan {
+  display: flex;
+  justify-content: flex-end;
+  margin-right:-30px; 
+}
+
+.headerIcon {
+  border-color: #d3d3d3;
+}
+
+.iconbg {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height:35px;
+  width: 35px;
+  margin-right:40px;
+}
+
+.iconbg:hover {
+  background-color: #d3d3d3;
+  cursor:pointer;
+}

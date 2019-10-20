@@ -1,0 +1,39 @@
+// Name of File: eventId
+{
+  "id": "<eventId>",
+  "name": "<eventName>",
+  "host": {
+    "id": "<userId>",
+    "name": "<userFullName>"
+  },
+  "isResolved": false,
+  "startTime": "<ISOString Time Stamp>",
+  "endTime": "<ISOString Time Stamp>",
+  "duration": 3,
+  "hammerDropTime": "<ISOString Time Stamp>",
+  "attendees": {
+    "number": 5,
+    "list": [
+      {
+        "id": "<userId>",
+        "name": "<userName>"
+      },
+      {
+        "id": "<userId>",
+        "name": "<userName>"
+      },
+      {
+        "id": "<userId>",
+        "name": "<userName>"
+      },
+      {
+        "id": "<userId>",
+        "name": "<userName>"
+      },
+      {
+        "id": "<userId>",
+        "name": "<userName>"
+      }
+    ]
+  }
+}
